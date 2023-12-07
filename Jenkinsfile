@@ -8,9 +8,10 @@ pipeline {
                 sh 'env | sort'
             }
         }
-        stage('Integration')
-            steps { 
+        stage('Integration') {
+            steps {
                 echo "Jenkins and GitHub Integration works..."
             }
+        }
     }
 }
