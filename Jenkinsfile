@@ -2,9 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('ENV') {
             steps {
-                echo 'Hello World'
+                echo 'Display ENV Variables'
+                sh 'env | sort'
             }
         }
     }
