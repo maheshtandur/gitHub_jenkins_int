@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Integration') {
             steps {
-                echo "Jenkins & GitHub Integration works.!!!"
+                echo "Jenkins & GitHub Integration works...!!!"
             }
         }
     }
